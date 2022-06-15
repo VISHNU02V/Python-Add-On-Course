@@ -1,0 +1,31 @@
+l=[1,2,3,4,5,'list']
+print(l)
+print(l[2:4])
+print(l[1:6:2])
+print(l[::-1])
+l.append(10)
+print(l)
+l.insert(5,20)
+print(l)
+l[4]=60
+print(l)
+l1=[]
+l2=[1,2,3]
+l3=[3,4,5]
+l2.append(l3)
+print(l2)
+l1.append(l2)
+print(l1)
+y=[]
+y=l2+l3
+print(y)
+b=[1,2,3,4,5,6,2,4,1]
+del(b[3]) 
+print(b)
+b.remove(2)
+print(b)
+print(len(b))
+for i in l:
+    print(i)
+for i in range(len(l)):
+    print(l[i])
